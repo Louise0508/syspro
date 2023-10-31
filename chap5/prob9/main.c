@@ -24,8 +24,8 @@ int main(int argc, char* argv[]) {
         read(fd1, &ch, sizeof(char));
         buffer[i++] = ch;
         if (ch == '\n') {
-            int j = i;
-            for (i -2; j >= 0; j--) {
+            int j = i - 2;
+            for (j; j >= 0; j--) {
                 write(fd2, &(buffer[j]), sizeof(char));
             }
             write(fd2, "\n", sizeof(char));
@@ -33,8 +33,8 @@ int main(int argc, char* argv[]) {
         }
         loc = lseek(fd1, -2 * sizeof(char), SEEK_CUR);
     }
-    int j = i;
-    for (i - 1; j >= 0; j--) {
+    int j = i - 1 ;
+    for (j; j >= 0; j--) {
         write(fd2, &(buffer[j]), sizeof(char));
     }
     write(fd2, "\n", sizeof(char));
