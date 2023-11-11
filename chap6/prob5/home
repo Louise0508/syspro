@@ -1,0 +1,9 @@
+& list2 .
+ 8 drwxrwxr-x  2 chang chang 4096  Dec 21 13:43 .
+ 8 drwxrwxr-x 16 chang chang 4096  Aug 30 18:55 ..
+ 8 –rw-r—r--   1 chang chang  781  Mar 21 17:13 list1.c
+ 8 –rw-r—r--   1 chang chang 2178  Mar 28 14:25 list2.c
+24 –rwxrwxr-x  1 chang chang 8775  Mar 21 17:14 list1
+32 –rwxrwxr-x  1 chang chang 13376 Dec 21 13:43 list2
+...
+
